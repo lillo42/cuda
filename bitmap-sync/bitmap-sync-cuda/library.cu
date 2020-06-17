@@ -23,10 +23,9 @@ __global__ void kernel(unsigned char* src) {
     src[offset * 4 + 1] = temp[15 - threadIdx.x][15 - threadIdx.y];
     src[offset * 4 + 2] = 0;
     src[offset * 4 + 3] = 255;
-
 }
 
-extern "C" __declspec(dllexport) void GenerateBitmap(unsigned char* dst, int dimension) {
+extern "C"  void GenerateBitmap(unsigned char* dst, int dimension) {
     int size = dimension * dimension * 4;
     cudaError_t  status;
 
