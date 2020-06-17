@@ -1,0 +1,6 @@
+#ifndef BITMAP_SYNC_CUDA_LIBRARY_CUH
+#define BITMAP_SYNC_CUDA_LIBRARY_CUH
+
+__global__ void hello();
+
+#endif //BITMAP_SYNC_CUDA_LIBRARY_CUH

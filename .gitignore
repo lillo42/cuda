@@ -19,3 +19,7 @@ _deps
 
 .idea/
 cmake*/
+
+
+**/bin/
+**/obj/

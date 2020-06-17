@@ -5,7 +5,6 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
 #include <iostream>
-//#include <curand.h>
 using namespace std;
 
 __device__ __host__ __inline__ float N(float x) {
